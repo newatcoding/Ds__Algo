@@ -1,0 +1,77 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximizearraysumafterKnegations",
+            "request": "launch",
+            "mainClass": "MaximizearraysumafterKnegations",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch egyptianFraction",
+            "request": "launch",
+            "mainClass": "egyptianFraction",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch fractionalKnapSack",
+            "request": "launch",
+            "mainClass": "fractionalKnapSack",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch getSmallestDigit",
+            "request": "launch",
+            "mainClass": "getSmallestDigit",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch jobSequencing",
+            "request": "launch",
+            "mainClass": "jobSequencing",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch maximumHeightOfPryamid",
+            "request": "launch",
+            "mainClass": "maximumHeightOfPryamid",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimumCoins",
+            "request": "launch",
+            "mainClass": "minimumCoins",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimumTimeToFinishJob",
+            "request": "launch",
+            "mainClass": "minimumTimeToFinishJob",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch rearrangeCharadjacent",
+            "request": "launch",
+            "mainClass": "rearrangeCharadjacent",
+            "projectName": "DS__Algo_d9b2fb8c"
+        }
+    ]
+}
