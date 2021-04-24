@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch courseScheduleII",
+            "request": "launch",
+            "mainClass": "courseScheduleII",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch journeyToTheMoon",
+            "request": "launch",
+            "mainClass": "journeyToTheMoon",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch kQueue",
             "request": "launch",
             "mainClass": "kQueue",
