@@ -12,9 +12,9 @@ public class minimumSquares {
                 }
                 dp[i][j] = i * j;
                 for (int k = 1; k <= i / 2; k++)
-                    dp[i][j] = min(dp[i][j], dp[i - k][j] + dp[k][j]);
+                    dp[i][j] = Math.min(dp[i][j], dp[i - k][j] + dp[k][j]);
                 for (int k = 1; k <= j / 2; k++)
-                    dp[i][j] = min(dp[i][j], dp[i][j - k] + dp[i][k]);
+                    dp[i][j] = Math.min(dp[i][j], dp[i][j - k] + dp[i][k]);
             }
         
         return dp[n][m];
