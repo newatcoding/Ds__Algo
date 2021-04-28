@@ -1,12 +1,9 @@
 import java.util.Scanner;
 
 public class waterOverflow {
-    static float findWater(int i, int j,
-                       float X)
-    {
+    static float findWater(int i, int j,float X){
  
-    if (j > i)
-    {
+    if (j > i){
         System.out.println("Incorrect Input");
         System.exit(0);
     }
@@ -17,12 +14,9 @@ public class waterOverflow {
     int index = 0;
     glass[index] = X;
     
-    for (int row = 1; row <= i ; ++row)
-    {
+    for (int row = 1; row <= i ; ++row){
     
-        for (int col = 1;
-                col <= row; ++col, ++index)
-        {
+        for (int col = 1;col <= row; ++col, ++index){
            
             X = glass[index];
             glass[index] = (X >= 1.0f) ? 1.0f : X;
