@@ -6,8 +6,6 @@ public class shortestUncommonSubsequence {
     {
         int m = S.length, n = T.length;
  
-        // declaring 2D array of m + 1 rows and
-        // n + 1 columns dynamically
         int dp[][] = new int[m + 1][n + 1];
  
         // T string is empty
