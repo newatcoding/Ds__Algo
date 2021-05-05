@@ -18,6 +18,8 @@ public class flattenedLinkedList {
         }
     }
     
+
+	//sorted way
     Node flatten(Node root)
     {
 	// Your code here
@@ -49,6 +51,37 @@ public class flattenedLinkedList {
         return result; 
     } 
 
+	//just flattening
+	static Node last;
+	public static Node flattenList(Node node)
+    {
+        if(node == null)
+            return null;
+     
+        last = node;
+     
+        Node next = node.next;
+     
+        if(node.down != null)
+            node.next = flattenList(node.down);
+     
+        if(next != null)
+            last.next = flattenList(next);
+     
+        return node;
+    }
+ 
+    // Utility method to print a linked list
+    public static void printFlattenNodes(Node head)
+    {
+        Node curr = head;
+        while(curr != null)
+        {
+            Console.Write(curr.data + " ");
+            curr = curr.next;
+        }
+         
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
