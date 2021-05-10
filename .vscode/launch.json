@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fibonachiUsingMatrix",
+            "request": "launch",
+            "mainClass": "fibonachiUsingMatrix",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch countDistinctSubsequence",
             "request": "launch",
             "mainClass": "countDistinctSubsequence",
