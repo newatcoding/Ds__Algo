@@ -21,6 +21,6 @@ public class MajorityElement {
         int[] arr=new int[]{1,1,2,3,4,1,1,4,1,5,1};
         MajorityElement b=new MajorityElement();
         
-        System.out.printlb(b.findMajor(arr));
+        System.out.println(b.findMajor(arr));
     }
 }
