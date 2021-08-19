@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MaxChunksToMakeSortedII",
+            "request": "launch",
+            "mainClass": "MaxChunksToMakeSortedII",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElementGeneral",
+            "request": "launch",
+            "mainClass": "MajorityElementGeneral",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch baloonArrow",
+            "request": "launch",
+            "mainClass": "baloonArrow",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch totalnonconsecOnes",
+            "request": "launch",
+            "mainClass": "totalnonconsecOnes",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumgame",
+            "request": "launch",
+            "mainClass": "sumgame",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch DoNotBeDistracted",
+            "request": "launch",
+            "mainClass": "DoNotBeDistracted",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch CeilnFloor",
             "request": "launch",
             "mainClass": "CeilnFloor",

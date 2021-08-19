@@ -1,6 +1,8 @@
 {
     "java.project.sourcePaths": [
+        "Searching And Sorting",
+        "CodeForces",
         "Array",
-        "Searching And Sorting"
+        "DP"
     ]
 }
