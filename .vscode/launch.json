@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch nwxtGreaterElement",
+            "request": "launch",
+            "mainClass": "nwxtGreaterElement",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch MaxChunksToMakeSortedII",
             "request": "launch",
             "mainClass": "MaxChunksToMakeSortedII",

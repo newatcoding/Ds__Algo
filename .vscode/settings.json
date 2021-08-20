@@ -1,8 +1,9 @@
 {
     "java.project.sourcePaths": [
         "Searching And Sorting",
+        "DP",
         "CodeForces",
         "Array",
-        "DP"
+        "StacknQueue"
     ]
 }
