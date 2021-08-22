@@ -1,7 +1,7 @@
 public class StoneGameAll {
     
     public static void main(String[] args) {
-        StoneGameAll a=new StoneGameAll();
+        // StoneGameAll a=new StoneGameAll();
         Solution b=new Solution();
         int[] piles=new int[]{};
         //choices First and Last

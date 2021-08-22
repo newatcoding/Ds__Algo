@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class StackBuyandSell {
     public int buyandSell1(int[] price){
         int n=price.length;

@@ -1,4 +1,4 @@
-import java.lang.reflect.Array;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -13,7 +13,7 @@ public class sortWRTsetBits {
     }
     public static  void main(String[] args) {
         Integer arr[] = {5, 2, 3, 9, 4, 6, 7, 15, 32};
-        sortWRTsetBits s=new sortWRTsetBits();
+        // sortWRTsetBits s=new sortWRTsetBits();
 
         Arrays.sort(arr,new comp());
       

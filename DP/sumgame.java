@@ -67,8 +67,8 @@ public class sumgame {
         // sumgame o=new sumgame();
         // o.sol(n, arr, sum);
         int[] ar=new int[]{1,2,3,4};
-        int[] b=ar;
-        b=null;
+        // int[] b=ar;
+        // b=null;
         System.out.println(ar[0]);
     }   
 }
