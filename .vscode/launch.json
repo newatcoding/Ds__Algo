@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch miracleandSleeper",
+            "request": "launch",
+            "mainClass": "miracleandSleeper",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch deepdownbelow",
+            "request": "launch",
+            "mainClass": "deepdownbelow",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch removeKDigits",
+            "request": "launch",
+            "mainClass": "removeKDigits",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch MochaandHiking",
+            "request": "launch",
+            "mainClass": "MochaandHiking",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch MochaandMath",
             "request": "launch",
             "mainClass": "MochaandMath",
