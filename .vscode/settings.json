@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
+        "StacknQueue",
         "Searching And Sorting",
         "DP",
         "CodeForces",
         "Array",
-        "StacknQueue"
+        "CodeChef"
     ]
 }
