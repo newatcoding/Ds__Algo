@@ -1,5 +1,5 @@
 import java.io.*;
-import java.util.HashMap;
+import java.util.*;
 
 public class chefAndDeque {
     public static void main(String[] args) {
@@ -20,42 +20,43 @@ public class chefAndDeque {
                 for(int i=0;i<n;i++){
                     arr[i]=Integer.parseInt(inp[i]);
                 }
-                HashMap<Long,Integer> map=new HashMap<>();
+                HashMap<Long,ArrayList<Integer>> map=new HashMap<>();
                 long[] presum=new long[n];
                 presum[0]=arr[0];
-                map.put((long)0,-1);
-                map.put(presum[0]%m,0);
+                ArrayList<Integer> empt=new ArrayList<>();
+                ArrayList<Integer> empt1=new ArrayList<>();
+                empt.add(-1);
+                empt1.add(0);
+                map.put((long)0,empt);
+                map.put(presum[0]%m,empt1);
                 for(int i=1;i<n;i++){
                     presum[i]=presum[i-1]+arr[i];
                     if(!map.containsKey(presum[i]%m)){
-                        map.put(presum[i]%m,i);
+                        map.put(presum[i]%m,new ArrayList<>());
+                      
                     }
+                      map.get(presum[i]%m).add(i);
                     
                 }
-               
-                int[] getIdx=new int[n];
-                for(int i=0;i<n;i++){
-                    int idx=map.get(presum[i]%m);
-                    if(idx<i){
-                        getIdx[i]=idx;
-                    }else{
-                        getIdx[i]=-2;
-                        
-                    }
-                //   System.out.print(getIdx[i]+" " );
-                }
-                // System.out.println(-1);
+            
                 int total=Integer.MAX_VALUE;
                 for(int i=n-1;i>=0;i--){
-                    if(getIdx[i]!=-2 && (getIdx[i]+1)<=(n-i-1)){
-                        int leftrem=getIdx[i]+1;
-                        int rightrem=n-i-1;
-                        int sum=Integer.MAX_VALUE;
-                        // System.out.println(leftrem+" "+i);
-                        sum=countSetBits(leftrem);
-                        sum+=countSetBits(rightrem-leftrem);
-                        total=Math.min(total,sum);
+                    ArrayList<Integer> idxAL=map.get(presum[i]%m);
+                    for(int idx:idxAL){
+                         if(idx>=i && (idx+1)>(n-i-1)){
+                              break;
+                         }
+                         int leftRm=idx+1;
+                         int right=n-i-1;
+                         if(leftRm+right>=n){
+                              break;
+                         }
+                         if((leftRm|right)==right){
+                              total=Math.min(total,countSetBits(right));
+                         }
+                      
                     }
+                 
                 }
                 if(total==Integer.MAX_VALUE){
                     System.out.println(-1);
