@@ -12,7 +12,7 @@ public class scenesFromAMemory {
             Scanner scn=new Scanner(System.in);
             int t=scn.nextInt();
             while(t-->0){
-                int k=scn.nextInt();
+                // int k=scn.nextInt();
                 String num=scn.next();
                 boolean fnd=false;
                 
