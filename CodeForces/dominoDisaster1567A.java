@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class dominoDisaster {
+public class dominoDisaster1567A {
     public static void main(String[] args) {
         try{
             Scanner scn=new Scanner(System.in);

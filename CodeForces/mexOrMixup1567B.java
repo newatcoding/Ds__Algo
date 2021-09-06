@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class mexOrMixup {
+public class mexOrMixup1567B {
     public static void main(String[] args) {
         try{
             Scanner scn=new Scanner(System.in);
