@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class balancedSubString {
+public class balancedSubString1569A {
     public static void main(String[] args) {
         try{
             Scanner scn=new Scanner(System.in);

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class chessTournament {
+public class chessTournament1569B {
     public static void main(String[] args) {
         try{
             Scanner scn=new Scanner(System.in);
