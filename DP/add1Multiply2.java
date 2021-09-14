@@ -1,6 +1,6 @@
 public class add1Multiply2 {
     public static void main(String[] args) {
-        int n=3;  
+        int n=5;  
         int ans=getans(n);
         System.out.println(ans);
     }
