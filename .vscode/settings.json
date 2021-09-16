@@ -2,10 +2,11 @@
     "java.project.sourcePaths": [
         "StacknQueue",
         "Searching And Sorting",
+        "HashMapNHeap",
         "DP",
         "CodeForces",
         "CodeChef",
         "Array",
-        "HashMapNHeap"
+        "String"
     ]
 }

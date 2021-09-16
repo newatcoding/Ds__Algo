@@ -1,47 +1,48 @@
-import java.util.Stack;
+import java.util.*;
+import java.lang.*;
 
 public class newStackDesign {
 
-    static class SuperStack extends Stack<Integer>{
-        Stack<Integer> min=new Stack<>();
+    // // public static class SuperStack extends Stack<Integer>{
+    //     Stack<Integer> min=new Stack<>();
 
-        void push(int x)
-        {
-            if (isEmpty() == true) {
-                super.push(x);
-                min.push(x);
-            }
-            else {
-                super.push(x);
-                int y = min.pop();
-                min.push(y);
-                if (x < y)
-                    min.push(x);
-                else
-                    min.push(y);
-            }
-        }
-        public Integer pop()
-        {
-            int x = super.pop();
-            min.pop();
-            return x;
-        }
+    //     void push(int x)
+    //     {
+    //         if (isEmpty() == true) {
+    //             super.push(x);
+    //             min.push(x);
+    //         }
+    //         else {
+    //             super.push(x);
+    //             int y = min.pop();
+    //             min.push(y);
+    //             if (x < y)
+    //                 min.push(x);
+    //             else
+    //                 min.push(y);
+    //         }
+    //     }
+    //     public Integer pop()
+    //     {
+    //         int x = super.pop();
+    //         min.pop();
+    //         return x;
+    //     }
     
-        int getMin()
-        {
-            int x = min.pop();
-            min.push(x);
-            return x;
-        }
-    }
-    public static void main(String[] args){
-        SuperStack s = new SuperStack();
-        s.push(10);
-        s.push(20);
-        s.push(30);
-        System.out.println(s.getMin());
-        s.push(5);
-        System.out.println(s.getMin());
-    }
+    //     int getMin()
+    //     {
+    //         int x = min.pop();
+    //         min.push(x);
+    //         return x;
+    //     }
+    // // }
+    // public static void main(String[] args){
+    //     // SuperStack s = new SuperStack();
+    //     s.push(10);
+    //     s.push(20);
+    //     s.push(30);
+    //     System.out.println(s.getMin());
+    //     s.push(5);
+    //     System.out.println(s.getMin());
+    // }
 }

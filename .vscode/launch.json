@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch newStackDesign",
+            "request": "launch",
+            "mainClass": "newStackDesign",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch Rings",
             "request": "launch",
             "mainClass": "Rings",
