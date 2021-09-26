@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch firstMissingPositive",
+            "request": "launch",
+            "mainClass": "firstMissingPositive",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch LongestArithmeticSequence",
             "request": "launch",
             "mainClass": "LongestArithmeticSequence",
