@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "String",
         "StacknQueue",
         "Searching And Sorting",
         "HashMapNHeap",
@@ -7,6 +8,6 @@
         "CodeForces",
         "CodeChef",
         "Array",
-        "String"
+        "Graphs"
     ]
 }

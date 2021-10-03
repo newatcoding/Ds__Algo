@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch digitaRemoval",
+            "request": "launch",
+            "mainClass": "digitaRemoval",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimumCostPath",
+            "request": "launch",
+            "mainClass": "minimumCostPath",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch firstMissingPositive",
             "request": "launch",
             "mainClass": "firstMissingPositive",
