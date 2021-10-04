@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch threeBoxes",
+            "request": "launch",
+            "mainClass": "threeBoxes",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch longestAndSubarray",
+            "request": "launch",
+            "mainClass": "longestAndSubarray",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch mexor",
+            "request": "launch",
+            "mainClass": "mexor",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch digitaRemoval",
             "request": "launch",
             "mainClass": "digitaRemoval",
