@@ -21,7 +21,7 @@ public class threeBoxes {
         }
     }
     public static int getans(int a,int b,int c,int d){
-        int ans=0;
+        int ans=-1;
         if((a+b+c)<=d){
             return 1;
         }
@@ -32,5 +32,5 @@ public class threeBoxes {
             ans=3;
         }
         return ans;
-    }   
+    }    
 }
