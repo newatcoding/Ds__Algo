@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch sortbasing",
+            "request": "launch",
+            "mainClass": "sortbasing",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch balance",
+            "request": "launch",
+            "mainClass": "balance",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch nge",
+            "request": "launch",
+            "mainClass": "nge",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch aa",
+            "request": "launch",
+            "mainClass": "aa",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch spiralToMatrix",
+            "request": "launch",
+            "mainClass": "spiralToMatrix",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch threeBoxes",
             "request": "launch",
             "mainClass": "threeBoxes",
