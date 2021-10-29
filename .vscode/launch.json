@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch chocolateDistributionProblem",
+            "request": "launch",
+            "mainClass": "chocolateDistributionProblem",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch sortbasing",
             "request": "launch",
             "mainClass": "sortbasing",
