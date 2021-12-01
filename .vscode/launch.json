@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch chatban",
+            "request": "launch",
+            "mainClass": "chatban",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch specialPermutation",
+            "request": "launch",
+            "mainClass": "specialPermutation",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch distanceA",
+            "request": "launch",
+            "mainClass": "distanceA",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch waystodecode",
+            "request": "launch",
+            "mainClass": "waystodecode",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch chocolateDistributionProblem",
             "request": "launch",
             "mainClass": "chocolateDistributionProblem",
