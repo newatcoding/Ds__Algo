@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch kCoreGraph",
+            "request": "launch",
+            "mainClass": "kCoreGraph",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch motherVertex",
+            "request": "launch",
+            "mainClass": "motherVertex",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch chatban",
             "request": "launch",
             "mainClass": "chatban",
