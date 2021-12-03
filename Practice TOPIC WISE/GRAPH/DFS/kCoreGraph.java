@@ -8,6 +8,7 @@ public class kCoreGraph {
         Graph(int v){
             this.V=v;
             this.adj=new Vector[V];
+            
             for(int i=0;i<V;i++){
                 adj[i]=new Vector<Integer>();
             }

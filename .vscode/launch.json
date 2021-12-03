@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch countPathbwTwoVertices",
+            "request": "launch",
+            "mainClass": "countPathbwTwoVertices",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch countNumberOfNodesAtLevel",
+            "request": "launch",
+            "mainClass": "countNumberOfNodesAtLevel",
+            "projectName": "DS__Algo_d9b2fb8c"
+        },
+        {
+            "type": "java",
             "name": "Launch kCoreGraph",
             "request": "launch",
             "mainClass": "kCoreGraph",
